@@ -1,6 +1,6 @@
-# Python
-__pycache__/
-*.pyc
+# Ignore everything by default...
+*
 
-# macOS
-.DS_Store
+# ...except the one file we want on GitHub (and this ignore file itself)
+!.gitignore
+!surfacing_original.py
